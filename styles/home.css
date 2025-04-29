@@ -1,6 +1,12 @@
 .cabecalho{
     display: flex;
     flex-direction: row;
+    justify-content: end;
+    margin-right: 20px;
+}
+
+.cabecalho li{
+    margin-left: 20px;
 }
 ul{
     list-style: none;
