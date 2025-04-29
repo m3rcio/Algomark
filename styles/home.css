@@ -1,0 +1,7 @@
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+}
+ul{
+    list-style: none;
+}
