@@ -11,3 +11,9 @@
 ul{
     list-style: none;
 }
+
+#banner-principal{
+    background-color: rgb(158, 63, 236);
+    width: 100%;
+    height: 100vh;
+}
