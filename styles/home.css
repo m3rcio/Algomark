@@ -25,3 +25,7 @@ ul{
 #banner-principal h1{
     color: white;
 }
+
+@media(max-width:767px){
+    
+}
