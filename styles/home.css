@@ -26,6 +26,11 @@ ul{
     color: white;
 }
 
+ .menu{
+        display: flex;
+        flex-direction: column;
+    }
+    
 @media(max-width:767px){
     .menu{
         display: flex;
