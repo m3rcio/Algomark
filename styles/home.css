@@ -39,4 +39,7 @@ ul{
     phone-menu,.menu{
         display: none;
     }
+    .phone-menu:hover{
+        display: block;
+    }
 }
