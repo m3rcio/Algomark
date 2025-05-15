@@ -2,6 +2,21 @@
     font-family:  Roboto;
 }
 
+    header{
+    padding-bottom: 10px;
+    padding-top: 10px;
+    }
+
+      header ul{
+        display: flex;
+        flex-direction: row;
+    }
+    
+    header ul li{
+        margin-right: 5px;
+        cursor: pointer;
+    }
+
 .cabecalho{
     display: flex;
     flex-direction: row;
@@ -31,13 +46,31 @@ ul{
         flex-direction: column;
     }
 
-     .menu-btn{
-        display: none;
-    }
+    
     
 @media(max-width:767px){
 
-    
+       header ul{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .cabecalho{
+        display: none;
+        position: absolute;
+        z-index: 1;
+        background-color: rgba(255, 255, 255, 0.993);
+        color: #000000;
+        width: 100vw;
+    }
+
+     .menu-btn{
+        padding: 10px 20px;
+        background-color: #eee;
+        cursor: pointer;
+        display: block;
+       
+    }
 
     .menu:hover .cabecalho{
         display: block;
@@ -47,10 +80,5 @@ ul{
         display: flex;
         flex-direction: column;
     }
-    phone-menu,.menu{
-        display: none;
-    }
-   
-
 
 }
