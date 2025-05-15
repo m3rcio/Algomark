@@ -30,8 +30,19 @@ ul{
         display: flex;
         flex-direction: column;
     }
+
+     .menu-btn{
+        display: none;
+    }
     
 @media(max-width:767px){
+
+    
+
+    .menu:hover .cabecalho{
+        display: block;
+    }
+
     .menu{
         display: flex;
         flex-direction: column;
@@ -39,7 +50,7 @@ ul{
     phone-menu,.menu{
         display: none;
     }
-    .phone-menu:hover{
-        display: block;
-    }
+   
+
+
 }
