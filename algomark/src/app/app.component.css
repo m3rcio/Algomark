@@ -93,22 +93,33 @@ ul{
     }
 
     .featured-work ul{
-        border: 1px solid black;
         display: flex;
         flex-direction: row;
     }
     .featured-work ul li{
-        border: 1px solid rgb(255, 0, 0);
-        padding: 10px;
+        /* padding: 10px; */
          cursor: pointer;
-         height: 70px;
+         height: 110px;
          text-align: bottom;
          display: flex;
-         align-items: flex-end;
+         flex-direction: column;
+         align-items: center;
          width: 130px;
-         justify-content: center;
+         justify-content: space-between;
+         
+    }
+
+    .our-work-btn-text{
+        font-weight: bold;
+        color: #21001C;
+        font-size: 14pt;
     }
     
+    .selected-bar{
+        width: 100%;
+        background-color: #21001C;
+        padding: 5px;
+    }
 @media(max-width:767px){
 
        header ul{
