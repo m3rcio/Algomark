@@ -9,6 +9,7 @@
     header{
     padding-bottom: 10px;
     padding-top: 10px;
+    border-bottom: 1px solid black;
     }
 
       header ul{
@@ -57,9 +58,43 @@ ul{
     }
 
     .content{
+        margin-top: 100px;
         display: flex;
         align-items: center;
         flex-direction: column;
+    }
+
+    .our-work{
+        margin-top: 160px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        color: #21001C;
+    }
+    .our-work p{
+        justify-content: center;
+        width: 400px;
+    }
+
+    .our-work h3{
+        font-weight: bold;
+    }
+
+    .btn{
+        color: white;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        background-color: #FF4FC4;
+    }
+
+    .featured-work{
+        margin-top: 50px;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .featured-work li{
+        border: 1px solid black;
     }
     
 @media(max-width:767px){
