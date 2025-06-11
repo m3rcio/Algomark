@@ -19,6 +19,7 @@
     header ul li{
         margin-right: 5px;
         cursor: pointer;
+        font-weight: bold;
     }
 
 .cabecalho{
@@ -42,7 +43,7 @@ ul{
     
 }
 
-#hero h1,h3{
+#hero h1,h4{
     color: #21001C;
 }
 
@@ -53,6 +54,12 @@ ul{
 
     .menu li{
         color: #21001C;
+    }
+
+    .content{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
     }
     
 @media(max-width:767px){
