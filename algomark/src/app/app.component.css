@@ -39,7 +39,8 @@ ul{
 
 #hero{
     width: 100%;
-    
+    background-color: rgb(33, 161, 247);
+    border-top: 1px solid black;
 }
 
 #hero h1,h4{
@@ -118,8 +119,15 @@ ul{
         background-color: #21001C;
         padding: 5px;
     }
-
     .seccao-clientes-destacados{
+        padding-bottom: 40px;
+        padding-top: 40px;
+    }
+    .seccao-clientes-destacados{
+        padding-top: 40px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
         color: #21001C;
     }
 @media(max-width:767px){
