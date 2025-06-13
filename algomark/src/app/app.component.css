@@ -71,9 +71,10 @@ ul{
         color: #21001C;
     }
     .our-work p{
-        justify-content: center;
         width: 400px;
     }
+
+   
 
     .our-work h3{
         font-weight: bold;
@@ -164,6 +165,14 @@ ul{
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: #FEDA4B;
+    color: #21001C;
+}
+.seccao-sobre-nos h1{
+    font-weight: bold;
+}
+.seccao-sobre-nos p{
+    width:800px;
 }
 
 @media(max-width:767px){
