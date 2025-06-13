@@ -61,6 +61,8 @@ ul{
         display: flex;
         align-items: center;
         flex-direction: column;
+         text-align: center; 
+        width: 100%;
     }
 
     .our-work{
@@ -68,13 +70,17 @@ ul{
         display: flex;
         align-items: center;
         flex-direction: column;
+        text-align: center;
         color: #21001C;
     }
     .our-work p{
         width: 400px;
     }
 
-   
+   .our-work h4{ margin: 0;
+    padding: 0;
+    text-align: center; 
+    width: 100%;}
 
     .our-work h3{
         font-weight: bold;
