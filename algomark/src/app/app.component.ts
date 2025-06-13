@@ -13,5 +13,10 @@ export class AppComponent {
     ngOnInit() {
    
   }
+    imgPath1='/assets/images/featured-clients.png';
+  
+  constructor() {
+    
+  }
 
 }
