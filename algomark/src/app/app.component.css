@@ -204,6 +204,10 @@ ul{
     padding: 10px;
     text-indent: 25px;
 }
+
+.titulo1-form{
+    width: 500px;
+}
 .form-btn{
     background-color: #FF4FC4;
     width: 240px;
