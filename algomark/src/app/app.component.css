@@ -192,7 +192,7 @@ ul{
     border-radius: 12px;
     /* border: 2px solid black; */
     border: none;
-    
+    padding: 10px;
 }
 
 @media(max-width:767px){
