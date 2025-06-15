@@ -1,5 +1,5 @@
 {
   "version": 2,
   "buildCommand": "npm run build",
-  "outputDirectory": "dist/[SEU_PROJETO]"
+  "outputDirectory": "dist/[algomark]"
 }
