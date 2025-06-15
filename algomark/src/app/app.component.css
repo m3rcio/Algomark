@@ -181,6 +181,20 @@ ul{
     width:800px;
 }
 
+.contacte-nos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #E0D9DF;
+}
+
+.form-input{
+    border-radius: 12px;
+    /* border: 2px solid black; */
+    border: none;
+    
+}
+
 @media(max-width:767px){
 
        header ul{
