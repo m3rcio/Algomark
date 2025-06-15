@@ -110,10 +110,15 @@ ul{
          text-align: bottom;
          display: flex;
          flex-direction: column;
-         align-items: center;
          width: 130px;
          justify-content: space-between;
          
+    }
+
+    .featured-work li:hover{
+        .selected-bar{
+            background-color: #21001C;
+        }
     }
 
     .our-work-btn-text{
@@ -124,7 +129,7 @@ ul{
     
     .selected-bar{
         width: 100%;
-        background-color: #21001C;
+        background-color: rgb(33, 161, 247);;
         padding: 5px;
     }
     .seccao-clientes-destacados{
@@ -182,6 +187,9 @@ ul{
     width:800px;
 }
 
+.contacte-nos h1{
+    color: #21001C;
+}
 .contacte-nos{
     display: flex;
     flex-direction: column;
@@ -194,6 +202,7 @@ ul{
     /* border: 2px solid black; */
     border: none;
     padding: 10px;
+    text-indent: 25px;
 }
 .form-btn{
     background-color: #FF4FC4;
@@ -202,6 +211,11 @@ ul{
     border-radius: 12px;
     color: white;
     padding: 8px;
+}
+
+textarea{
+     width: 240px;
+     border-radius: 12px;
 }
 
 @media(max-width:767px){
