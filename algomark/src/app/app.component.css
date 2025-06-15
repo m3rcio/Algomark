@@ -10,6 +10,7 @@
     padding-bottom: 10px;
     padding-top: 10px;
     border-bottom: 1px solid black;
+    position: sticky;
     }
 
       header ul{
@@ -193,6 +194,14 @@ ul{
     /* border: 2px solid black; */
     border: none;
     padding: 10px;
+}
+.form-btn{
+    background-color: #FF4FC4;
+    width: 240px;
+    border: none;
+    border-radius: 12px;
+    color: white;
+    padding: 8px;
 }
 
 @media(max-width:767px){
