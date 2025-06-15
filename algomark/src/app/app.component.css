@@ -205,8 +205,12 @@ ul{
     text-indent: 25px;
 }
 
-.titulo1-form{
+.titulo1-form,p{
     width: 500px;
+}
+
+h2,p{
+    color: #21001C;
 }
 .form-btn{
     background-color: #FF4FC4;
