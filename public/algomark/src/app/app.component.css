@@ -1,0 +1,262 @@
+/* @import '../assets/css/fontawesome.css'; */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Outfit:wght@100..900&display=swap');
+
+*{
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+}
+
+    header{
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-bottom: 1px solid black;
+    position: sticky;
+    }
+
+      header ul{
+        display: flex;
+        flex-direction: row;
+    }
+    
+    header ul li{
+        margin-right: 5px;
+        cursor: pointer;
+        font-weight: bold;
+    }
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    margin-right: 20px;
+}
+
+.cabecalho li{
+    margin-left: 20px;
+}
+ul{
+    list-style: none;
+}
+
+#hero{
+    width: 100%;
+    background-color: rgb(33, 161, 247);
+    border-top: 1px solid black;
+}
+
+#hero h1,h4{
+    color: #21001C;
+}
+
+ .menu{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .menu li{
+        color: #21001C;
+    }
+
+    .content{
+        margin-top: 100px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+         text-align: center; 
+        width: 100%;
+    }
+
+    .our-work{
+        margin-top: 160px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        color: #21001C;
+    }
+    .our-work p{
+        width: 400px;
+    }
+
+   .our-work h4{ margin: 0;
+    padding: 0;
+    text-align: center; 
+    width: 100%;}
+
+    .our-work h3{
+        font-weight: bold;
+    }
+
+    .btn{
+        color: white;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        background-color: #FF4FC4;
+    }
+
+    .featured-work{
+        margin-top: 100px;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .featured-work ul{
+        display: flex;
+        flex-direction: row;
+    }
+    .featured-work ul li{
+         cursor: pointer;
+         height: 110px;
+         text-align: bottom;
+         display: flex;
+         flex-direction: column;
+         width: 130px;
+         justify-content: space-between;
+         
+    }
+
+    .featured-work li:hover{
+        .selected-bar{
+            background-color: #21001C;
+        }
+    }
+
+    .our-work-btn-text{
+        font-weight: bold;
+        color: #21001C;
+        font-size: 14pt;
+    }
+    
+    .selected-bar{
+        width: 100%;
+        background-color: rgb(33, 161, 247);;
+        padding: 5px;
+    }
+    .seccao-clientes-destacados{
+        padding-bottom: 40px;
+        padding-top: 40px;
+    }
+    .seccao-clientes-destacados{
+        padding-top: 40px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: #21001C;
+    }
+   
+    
+    .seccao-conquistas{
+         padding-top: 40px;
+        background-color: #E0D9DF;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: #21001C;
+    }
+    .seccao-conquistas h1{
+        width: 1100px;
+        font-weight: bold;
+        text-align: center;
+    }
+    .seccao-conquistas h4,.seccao-clientes-destacados h1{
+        font-weight: bold;
+    }
+    .row{
+        width: 100%;
+    }
+    .col-lg-6{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+.seccao-conquistas p,h4{
+    width:500px;
+}
+
+.seccao-sobre-nos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FEDA4B;
+    color: #21001C;
+}
+.seccao-sobre-nos h1{
+    font-weight: bold;
+}
+.seccao-sobre-nos p{
+    width:800px;
+}
+
+.contacte-nos h1{
+    color: #21001C;
+}
+.contacte-nos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #E0D9DF;
+}
+
+.form-input{
+    border-radius: 12px;
+    /* border: 2px solid black; */
+    border: none;
+    padding: 10px;
+    text-indent: 25px;
+}
+
+.titulo1-form,p{
+    width: 500px;
+}
+
+h2,p{
+    color: #21001C;
+}
+.form-btn{
+    background-color: #FF4FC4;
+    width: 240px;
+    border: none;
+    border-radius: 12px;
+    color: white;
+    padding: 8px;
+}
+
+textarea{
+     width: 240px;
+     border-radius: 12px;
+}
+
+@media(max-width:767px){
+
+       header ul{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .cabecalho{
+        display: none;
+        position: absolute;
+        z-index: 1;
+        background-color: rgba(255, 255, 255, 0.993);
+        color: #000000;
+        width: 100vw;
+    }
+
+     .menu-btn{
+        padding: 10px 20px;
+        background-color: #eee;
+        cursor: pointer;
+        display: block;
+       
+    }
+
+    .menu:hover .cabecalho{
+        display: block;
+    }
+
+    .menu{
+        display: flex;
+        flex-direction: column;
+    }
+
+}
