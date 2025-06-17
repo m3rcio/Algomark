@@ -1,6 +1,7 @@
 {
   "version": 2,
-  "buildCommand": "npx ng build && npx ng run algomark:server",
+  "buildCommand": "npm run build:ssr",
+  "outputDirectory": "dist/algomark/browser",
   "routes": [
     {
       "src": "/(.*)",
