@@ -1,7 +1,6 @@
 {
   "version": 2,
   "buildCommand": "npm run build:ssr",
-  "outputDirectory": "dist/algomark/browser",
   "routes": [
     {
       "src": "/(.*)",
