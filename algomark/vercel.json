@@ -1,5 +1,8 @@
+
 {
   "version": 2,
-  "buildCommand": "npm run build",
-  "outputDirectory": "dist/[algomark]"
+  "buildCommand": "npm run build:ssr",
+  "routes": [
+    { "src": "/(.*)", "dest": "/api/server.js" }
+  ]
 }
