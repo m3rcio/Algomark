@@ -7,7 +7,8 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "serve:ssr:algomark": "node dist/algomark/server/server.mjs"
+    "serve:ssr:algomark": "node dist/algomark/server/server.mjs",
+    "postinstall": "ng version || npm install -g @angular/cli"
   },
   "private": true,
   "dependencies": {
