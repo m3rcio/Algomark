@@ -1,8 +1,10 @@
-
 {
   "version": 2,
-  "buildCommand": "npm run build:ssr",
+  "buildCommand": "npx ng build && npx ng run algomark:server",
   "routes": [
-    { "src": "/(.*)", "dest": "/api/server.js" }
+    {
+      "src": "/(.*)",
+      "dest": "/api/server.js"
+    }
   ]
 }
