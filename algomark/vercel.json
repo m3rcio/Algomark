@@ -1,10 +1,19 @@
 {
   "version": 2,
-  "buildCommand": "npm run build:ssr",
-  "routes": [
+  "builds": [
     {
-      "src": "/(.*)",
-      "dest": "/api/server.js"
+      "src": "package.json",
+      "use": "@vercel/static-build",
+      "config": {
+        "distDir": "dist/algomark/browser",
+        "buildCommand": "npm run build:production"
+      }
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
     }
   ]
 }
